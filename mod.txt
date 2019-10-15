@@ -51,9 +51,6 @@
 		{ "hook_id" : "lib/managers/menu/missionbriefinggui", "script_path" : "BuyAllAsset/BuyAllAsset.lua" },
 
 
-		{ "hook_id" : "lib/tweak_data/crimespreetweakdata", "script_path":"Crash_Fix/mod.lua" },
-
-
 		{ "hook_id" : "lib/managers/menu/crimespreedetailsmenucomponent", "script_path" : "Crimespree Hide Modifiers and Rewards/detail_menu_component.lua"},
 
 
@@ -70,11 +67,6 @@
 
 
 		{ "hook_id" : "lib/network/handlers/unitnetworkhandler", "script_path" : "No Red Lasers/unitnetworkhandler.lua"},
-
-
-		{"hook_id" : "lib/units/beings/player/states/playercivilian", "script_path" :"Mui_asset_Press2hold/press2hold.lua"},
-        		{"hook_id" : "lib/units/beings/player/states/playermaskoff", "script_path" :"Mui_asset_Press2hold/press2hold.lua"},
-        		{"hook_id" : "lib/units/beings/player/states/playerstandard", "script_path" : "Mui_asset_Press2hold/press2hold.lua"},
 
 
 		{"hook_id" : "lib/tweak_data/weapontweakdata","script_path" : "Reduce Grimm Spam - 24 pellets to 2/basset_rays.lua"},
