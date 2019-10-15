@@ -199,6 +199,7 @@ elseif string.lower(RequiredScript) == "lib/managers/menu/missionbriefinggui" th
 		end
 	end
 
+	
 	function AssetsItem:can_afford_all_assets()
 		return (managers.assets:get_total_assets_costs() <= managers.money:total())
 	end
