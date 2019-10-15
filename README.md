@@ -33,3 +33,7 @@ https://modworkshop.net/mydownloads.php?action=view_down&did=22255
 
 Skip and Auto-Select
 https://modworkshop.net/mydownloads.php?action=view_down&did=13511#description
+
+
+blank와 blank_key 는 모드수정할때 오류안나게 하기위해 넣어놈.
+말그대로 빈 모드라 실행해도 실행되는거 
