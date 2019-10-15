@@ -72,4 +72,5 @@ function HUDManager:update(...)
 			hud_interaction._interact_circle:set_alpha(max(0.1, alpha))
 		end
 	end
+	
 end
