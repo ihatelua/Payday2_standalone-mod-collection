@@ -5,6 +5,7 @@ if Network:is_server() and Utils:IsInHeist() and Utils:IsInGameState() and not m
 			all_synced = false
 		end
 	end
+	
 	if all_synced == true then
 		managers.game_play_central:restart_the_game()
 	else
