@@ -1,5 +1,5 @@
-# Payday2_single-mode-collection
-single mode collection
+# Payday2_single-mod-collection
+single mod collection
 
 BuyAllAsset<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=19957#description">Sources</a>
