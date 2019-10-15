@@ -49,5 +49,4 @@ elseif RequiredScript == "lib/states/ingamewaitingforplayers" then
 			self:_skip()
 		end
 	end
-	
 end
