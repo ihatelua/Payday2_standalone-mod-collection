@@ -23,4 +23,5 @@ error = function(...) end
 if managers and managers.user and managers.savefile then
 	managers.user:set_setting("max_streaming_chunk", 16384)
 	managers.savefile:save_setting(true)
+	
 end
