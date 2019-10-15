@@ -102,25 +102,6 @@
 
 
 
-* Kill Log
-	킬 당 카운트가 찍히는 모드
-	설정 - 모드옵션 에서 색깔 크기 위치 바꿀수있음.
-
-	[모드 제거방법]
-	Kill Log 폴더 삭제
-
-	mod.txt 에서
-
-		{ "hook_id" : "lib/managers/menumanager", "script_path" : "Kill Log/Menu.lua"},
-		{ "hook_id" : "lib/managers/playermanager", "script_path" : "Kill Log/PlayerManager.lua"},
-
-	이 코드 지우면 됨.
-
-	[출처]
-	https://modworkshop.net/mydownloads.php?action=view_down&did=14856
-
-
-
 * No Fog
 	안개제거(연막탄 제거 아님) 맵에서 흐릿한 안개를 제거하는 모드
 
