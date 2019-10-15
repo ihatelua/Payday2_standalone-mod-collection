@@ -1,37 +1,37 @@
 # Payday2_single-mode-collection
 single mode collection
 
-BuyAllAsset
+BuyAllAsset<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=19957#description">Sources</a>
 
-Crimespree Hide Modifiers and Rewards
+Crimespree Hide Modifiers and Rewards<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=19590">Sources</a>
 
-Force Ready
+Force Ready<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=20815">Sources</a>
 
-Intimidated Outlines
+Intimidated Outlines<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=13584#description">Sources</a>
 
-InvertedFlashbangGlare
+InvertedFlashbangGlare<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=14802">Sources</a>
 
-No Fog
+No Fog<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=17459">Sources</a>
 
-No Print
+No Print<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=21549">Sources</a>
 
-No Red Lasers
+No Red Lasers<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=21990">Sources</a>
 
-Quick Instant restart
+Quick Instant restart<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=14729">Sources</a>
 
-Reduce Grimm Spam - 24 pellets to 2
+Reduce Grimm Spam - 24 pellets to 2<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=22255">Sources</a>
 
-Skip and Auto-Select
+Skip and Auto-Select<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=13511#description">Sources</a>
 
 
