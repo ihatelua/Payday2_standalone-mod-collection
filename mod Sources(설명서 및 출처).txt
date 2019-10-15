@@ -1,0 +1,252 @@
+단일모드를 통합해서 만든 모드
+
+
+* BuyAllAsset
+	울프허드 단일모드 에셋 한번에 사는 모드
+
+	[모드 제거방법]
+	BuyAllAsset 폴더 삭제
+
+	mod.txt 에서
+
+		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "BuyAllAsset/BuyAllAsset.lua" },
+		{ "hook_id" : "lib/managers/missionassetsmanager", "script_path" : "BuyAllAsset/BuyAllAsset.lua" },
+		{ "hook_id" : "lib/managers/menu/missionbriefinggui", "script_path" : "BuyAllAsset/BuyAllAsset.lua" },
+
+	이 코드 지우면 됨.
+
+	[출처]
+	https://modworkshop.net/mydownloads.php?action=view_down&did=19957#description
+
+
+
+* Crimespree Hide Modifiers and Rewards
+	크라임스프리 로비에서 오른쪽위 보상목록있는 창들 숨기는 모드
+	완전히 숨겨지는것이 아니라 숨기기 창이 생김
+
+	[모드 제거방법]
+	Crimespree Hide Modifiers and Rewards 폴더 삭제
+
+	mod.txt 에서
+
+		{ "hook_id" : "lib/managers/menu/crimespreedetailsmenucomponent", "script_path" : "Crimespree Hide Modifiers and Rewards/detail_menu_component.lua"},
+
+	이 코드 지우면 됨.
+
+	[출처]
+	https://modworkshop.net/mydownloads.php?action=view_down&did=19590
+
+
+
+* Force Ready
+	호스트시 유저가 레디안했을때 강제 시작할수있는 모드
+	모드-모드옵션 키 에서 키 바꿔야 사용가능함.
+
+	[모드 제거방법]
+	Force Ready 폴더 삭제
+
+	mod.txt 에서
+
+		{
+			"keybind_id" : "force_ready",
+			"name" : "Force Ready",
+			"description" : "Forces the game to start, for thoes times when people just take forever.",
+			"script_path" : "Force Ready/force_ready.lua",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"localized": false
+		},
+
+	이 코드 지우면 됨.
+
+	[출처]
+	https://modworkshop.net/mydownloads.php?action=view_down&did=20815
+
+
+
+* Intimidated Outlines
+	도미, 조커로 만들때 노란색 라인이 뜨는 모드
+	
+	[모드 제거방법]
+	Intimidated Outlines 폴더 삭제
+
+	mod.txt 에서
+
+		{ "hook_id" : "lib/units/enemies/cop/copdamage", "script_path" : "Intimidated Outlines/lib/units/enemies/cop/copdamage.lua" },
+		{ "hook_id" : "lib/units/enemies/cop/huskcopdamage", "script_path" : "Intimidated Outlines/lib/units/enemies/cop/huskcopdamage.lua" },
+		{ "hook_id" : "lib/units/enemies/cop/copmovement", "script_path" : "Intimidated Outlines/lib/units/enemies/cop/copmovement.lua" },
+		{ "hook_id" : "lib/units/enemies/cop/huskcopmovement", "script_path" : "Intimidated Outlines/lib/units/enemies/cop/huskcopmovement.lua" },
+
+	이 코드 지우면 됨.
+	
+	[출처]
+	https://modworkshop.net/mydownloads.php?action=view_down&did=13584#description
+
+
+
+* InvertedFlashbangGlare
+	플래쉬뱅(섬광탄) 맞았을때 흰화면이 아닌 검정화면으로 바꿔주는 모드
+
+	[모드 제거방법]
+	InvertedFlashbangGlare 폴더 삭제
+
+	mod.txt 에서
+
+		{ "hook_id" : "core/lib/managers/coreenvironmentcontrollermanager", "script_path" : "InvertedFlashbangGlare/coreenvironmentcontrollermanager.lua" },
+		{ "hook_id" : "lib/managers/hudmanager", "script_path" : "InvertedFlashbangGlare/hudmanager.lua" },
+
+	이 코드 지우면 됨.
+
+	[출처]
+	https://modworkshop.net/mydownloads.php?action=view_down&did=14802
+
+
+
+* Kill Log
+	킬 당 카운트가 찍히는 모드
+	설정 - 모드옵션 에서 색깔 크기 위치 바꿀수있음.
+
+	[모드 제거방법]
+	Kill Log 폴더 삭제
+
+	mod.txt 에서
+
+		{ "hook_id" : "lib/managers/menumanager", "script_path" : "Kill Log/Menu.lua"},
+		{ "hook_id" : "lib/managers/playermanager", "script_path" : "Kill Log/PlayerManager.lua"},
+
+	이 코드 지우면 됨.
+
+	[출처]
+	https://modworkshop.net/mydownloads.php?action=view_down&did=14856
+
+
+
+* No Fog
+	안개제거(연막탄 제거 아님) 맵에서 흐릿한 안개를 제거하는 모드
+
+	[모드 제거방법]
+	No Fog 폴더 삭제
+
+	mod.txt 에서
+
+		{ "hook_id" : "core/lib/managers/viewport/environment/coreenvironmentfeeder", "script_path": "No Fog/test_fog.lua"},
+
+	이 코드 지우면 됨.
+
+	[출처]
+	https://modworkshop.net/mydownloads.php?action=view_down&did=17459
+
+
+
+* No Print
+	맵 더미파일을 지워 프레임향상 시키는 모드
+
+	[모드 제거방법]
+	No Print 폴더 삭제
+
+	mod.txt 에서
+
+		{ "hook_id" : "lib/entry", "script_path":"No Print/ded.lua" },
+        		{ "hook_id" : "core/lib/utils/coredebug", "script_path":"No Print/ded.lua" },
+
+	이 코드 지우면 됨.
+	
+	[출처]
+	https://modworkshop.net/mydownloads.php?action=view_down&did=21549
+
+
+
+* No Red Lasers
+	상대방이 빨간레이저 일때 초록색레이저로 바꿔주는 모드
+	
+	[모드 제거방법]
+	No Red Lasers 폴더 삭제
+
+	mod.txt 에서
+
+		{ "hook_id" : "lib/network/handlers/unitnetworkhandler", "script_path" : "No Red Lasers/unitnetworkhandler.lua"},
+
+	이 코드 지우면 됨.
+	
+	[출처]
+	https://modworkshop.net/mydownloads.php?action=view_down&did=21990
+
+
+
+* Quick Instant restart
+	빠른 재시작 가능하게 해주는 모드(5,4,3,2,1 기다릴 필요없음.)
+	모드 - 모드 옵션 키 에서 키를 바꿔줘야 사용가능함.
+
+	[모드 제거방법]
+	Quick Instant restart 폴더 삭제
+
+	mod.txt 에서
+
+		{
+			"keybind_id": "Quick_restart_selection",
+			"name": "Quick restart selection",
+			"description": "Quick restart with a preset keybind, only for non pro jobs",
+			"script_path": "Quick Instant restart/Quick_restart.lua",
+			"run_in_menu": true,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "Intant_restart_instant",
+			"name": "Instant restart",
+			"description": "Instant restart with a preset keybind, only for non pro jobs",
+			"script_path": "Quick Instant restart/Instant_restart.lua",
+			"run_in_menu": true,
+			"run_in_game": true,
+			"localized": false
+		},
+
+	이 코드 지우면 됨.
+	
+	[출처]
+	https://modworkshop.net/mydownloads.php?action=view_down&did=14729
+
+
+
+* Reduce Grimm Spam - 24 pellets to 2
+	호스트시 그림샷건의 펠릿수를 줄여주는 모드(프레임향상)
+	
+	[모드 제거방법]
+	Reduce Grimm Spam - 24 pellets to 2 폴더 삭제
+
+	mod.txt 에서
+
+		{"hook_id" : "lib/tweak_data/weapontweakdata","script_path" : "Reduce Grimm Spam - 24 pellets to 2/basset_rays.lua"},
+
+	이 코드 지우면 됨.
+
+	[출처]
+	https://modworkshop.net/mydownloads.php?action=view_down&did=22255
+
+
+
+* Skip and Auto-Select
+	게임시작 후 검정화면에서 Enter 누르지않고 바로 시작하게하는 모드 & 자동 카드뽑기
+
+	[모드 제거방법]
+	Skip and Auto-Select 폴더 삭제
+
+	mod.txt 에서
+
+		{"hook_id" : "lib/managers/menu/stageendscreengui", "script_path" : "Skip and Auto-Select/skip.lua"},
+        		{"hook_id" : "lib/managers/menu/lootdropscreengui", "script_path" : "Skip and Auto-Select/skip.lua"},
+        		{"hook_id" : "lib/states/ingamewaitingforplayers", "script_path" : "Skip and Auto-Select/skip.lua"}, 
+
+	이 코드 지우면 됨.
+
+	[출처]
+	https://modworkshop.net/mydownloads.php?action=view_down&did=13511#description
+
+
+
+
+
+
+
+
+
