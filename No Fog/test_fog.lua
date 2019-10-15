@@ -31,4 +31,5 @@ function PostFogMaxRangeFeeder:apply(handler, viewport, scene)
 	local material = handler:_get_post_processor_modifier_material(viewport, scene, ids_apply_ambient_id, ids_deferred, ids_deferred_lighting, ids_apply_ambient)
 
 	material:set_variable(ids_fog_max_range, math.huge)
+	
 end
