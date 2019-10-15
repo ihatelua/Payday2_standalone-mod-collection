@@ -38,6 +38,7 @@ local function tryStart()
 		return false
 	end
 	
+	
 	say("Starting", green)
 	game_state_machine:current_state():start_game_intro()
 end
