@@ -1,6 +1,7 @@
 {
 	"name" : "single mode collection",
 	"description" : "single mode collection",
+	"contact" : "https://github.com/ihatelua/Payday2_single-mode-collection",
 	"keybinds" : [
 		{
 			"keybind_id" : "force_ready",
