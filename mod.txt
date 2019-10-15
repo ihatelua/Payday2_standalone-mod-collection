@@ -53,12 +53,6 @@
 
 		{ "hook_id" : "lib/managers/menu/crimespreedetailsmenucomponent", "script_path" : "Crimespree Hide Modifiers and Rewards/detail_menu_component.lua"},
 
-
-		{ "hook_id" : "lib/managers/hudmanager", "script_path" : "CusCrosshair/CrosshairCore.lua" },
-		{ "hook_id" : "lib/managers/menumanager", "script_path" : "CusCrosshair/CrosshairCore.lua" },
-		{ "hook_id" : "lib/managers/hud/hudhitconfirm", "script_path" : "CusCrosshair/CrosshairCore.lua" },
-
-
 		{ "hook_id" : "core/lib/managers/coreenvironmentcontrollermanager", "script_path" : "InvertedFlashbangGlare/coreenvironmentcontrollermanager.lua" },
 		{ "hook_id" : "lib/managers/hudmanager", "script_path" : "InvertedFlashbangGlare/hudmanager.lua" },
 
