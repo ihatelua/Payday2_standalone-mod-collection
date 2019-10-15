@@ -3,4 +3,5 @@ Hooks:PostHook( CopDamage , "die" , "PostCopDamageDie" , function( self , attack
 	self._unit:contour():remove( "friendly" , true )
 	self._unit:contour():remove( "highlight_character" , true )
 
+		
 end )
