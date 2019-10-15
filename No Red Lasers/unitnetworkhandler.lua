@@ -3,6 +3,7 @@ function UnitNetworkHandler:set_weapon_gadget_color(unit, red, green, blue, send
 		return
 	end
 
+	
 	if red and green and blue then 
 		local threshold = 0.66 --can be changed at will
 --		log("No Red Lasers: Filtered a red player laser! Attempted values " .. tostring(red) .. "|g:" .. tostring(green) .. "|b:" .. tostring(blue) .. " from sender" .. tostring(sender))
