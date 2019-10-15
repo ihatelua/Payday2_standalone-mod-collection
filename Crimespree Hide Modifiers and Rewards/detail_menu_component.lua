@@ -4,4 +4,5 @@ Hooks:PostHook( CrimeSpreeDetailsMenuComponent, "populate_tabs_data", "add_hide_
 		page_class = "nothing",
 		width_multiplier = 1
 	})
+		
 end)
