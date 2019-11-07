@@ -1,0 +1,21 @@
+1.0 ChangeLog
+
+BuyAllAsset
+Crimespree Hide Modifiers and Rewards
+Force Ready
+Intimidated Outlines
+InvertedFlashbangGlare
+No Fog
+No Print
+No Red Lasers
+Quick Instant restart
+Reduce Grimm Spam - 24 pellets to 2
+Skip and Auto-Select
+추가
+
+
+
+1.1 ChangeLog
+
+Cheater Kicker
+추가
