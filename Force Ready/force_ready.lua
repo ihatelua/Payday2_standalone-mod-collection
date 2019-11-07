@@ -18,11 +18,6 @@ local function tryStart()
 		return false
 	end
 	
-	if Utils:IsInHeist() or not Utils:IsInGameState() then
-		say("Not in loudout", red)
-		return false
-	end
-	
 	local session = managers.network and managers.network:session()
 	local local_peer = session and session:local_peer()
 	local time_elapsed = managers.game_play_central and managers.game_play_central:get_heist_timer() or 0
