@@ -20,6 +20,25 @@
 
 
 
+* Cheater Kicker
+	호스트시 치트모드 사용하는 유저를 자동으로 밴하는 모드
+	ngbto 는 킥을 하지만 이 모드는 치트를 사용하는 유저를 밴하는 모드(제작자는 nbgto모드를 사용하면 팅겨서 이걸 사용)
+	ngbto 사용하면 이 모드는 지워도 됨.
+	pirate perfection 이나 pd2hack 같은 완전한 핵은 밴을 시키고, silent assassin 이나 carry stacker 같은 애매한 핵은 채팅창에 알림이 뜨게됨(나만 볼수있음)
+
+	[모드 제거방법]
+	Cheater Kicker 폴더 삭제
+
+	mod.txt 에서
+
+		{ "hook_id" : "lib/network/base/networkpeer", "script_path":"Cheater Kicker/mod1.lua"},
+
+	이 코드 지우면 됨.
+
+	[출처]
+	https://modworkshop.net/mydownloads.php?action=view_down&did=21487
+
+
 * Crimespree Hide Modifiers and Rewards
 	크라임스프리 로비에서 오른쪽위 보상목록있는 창들 숨기는 모드
 	완전히 숨겨지는것이 아니라 숨기기 창이 생김
