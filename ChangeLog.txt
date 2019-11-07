@@ -19,3 +19,8 @@ Skip and Auto-Select
 
 Cheater Kicker
 추가
+
+
+
+1.2 ChangeLog
+force ready modify
