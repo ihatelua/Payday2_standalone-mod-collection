@@ -7,16 +7,6 @@ local function say(str, colour)
 	managers.chat:_receive_message(1, prefix, str, colour)
 end
 
-local function isSynced()
-	for _, peer in pairs(LuaNetworking:GetPeers()) do
-		if not peer:synched() then
-			return false
-		end
-	end
-	
-	return true
-end
-
 local function tryStart()
 	if not LuaNetworking:IsMultiplayer() then
 		say("Not multiplayer", red)
@@ -33,9 +23,26 @@ local function tryStart()
 		return false
 	end
 	
-	if not isSynced() then
-		say("Not all players synched, some one may be joining", red)
-		return false
+	local session = managers.network and managers.network:session()
+	local local_peer = session and session:local_peer()
+	local time_elapsed = managers.game_play_central and managers.game_play_central:get_heist_timer() or 0
+	
+	local enough_wait_time = (time_elapsed > 90)
+	local friends_list = not enough_wait_time and Steam:logged_on() and Steam:friends() or {}
+	local abort = false
+	
+	for _, peer in ipairs(session:peers()) do
+		local is_friend = false
+		for _, friend in ipairs(friends_list) do
+			if friend:id() == peer:user_id() then
+				is_friend = true
+				break
+			end
+		end
+		if not (enough_wait_time or is_friend) or not (peer:synced() or peer:id() == local_peer:id()) then
+			abort = true
+			break
+		end
 	end
 	
 	
