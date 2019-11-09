@@ -10,8 +10,9 @@ Cheater Kicker<br>
 Crimespree Hide Modifiers and Rewards<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=19590">Sources</a>
 
-Force Ready - modified by me<br>
-<a href="https://modworkshop.net/mydownloads.php?action=view_down&did=20815">Sources</a>
+Force Ready<br>
+<a href="https://modworkshop.net/mydownloads.php?action=view_down&did=20815">Sources</a><br>
+<a href="https://github.com/ihatelua/WolfHUD/blob/master/lua/Scripts.lua">Sources</a> - made by Seven, modified by me
 
 Intimidated Outlines<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=13584">Sources</a>
