@@ -10,7 +10,7 @@ Cheater Kicker<br>
 Crimespree Hide Modifiers and Rewards<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=19590">Sources</a>
 
-Force Ready<br> modify
+Force Ready - modified by me<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=20815">Sources</a>
 
 Intimidated Outlines<br>
