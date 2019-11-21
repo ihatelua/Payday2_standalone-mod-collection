@@ -38,6 +38,8 @@ Reduce Grimm Spam - 24 pellets to 2<br>
 Skip and Auto-Select<br>
 <a href="https://modworkshop.net/mydownloads.php?action=view_down&did=13511">Sources</a>
 
+Stop crime spree crash on join base<br>
+<a href="https://modworkshop.net/mydownloads.php?action=view_down&did=21026">Sources</a>
 
 blank와 blank_key 는 모드수정할때 오류안나게 하기위해 넣어놈.
 말그대로 빈 모드라 실행해도 실행되지않음.
