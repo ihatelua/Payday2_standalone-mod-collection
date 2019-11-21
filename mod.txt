@@ -78,6 +78,7 @@
 		{ "hook_id" : "lib/entry", "script_path":"No Print/ded.lua" },
         	{ "hook_id" : "core/lib/utils/coredebug", "script_path":"No Print/ded.lua" },
 
+		{ "hook_id": "lib/managers/menu/crimespreedetailsmenucomponent", "script_path": "Stop crime spree crash on join base/lua/esconder.lua" },
 
 		{ "hook_id" : "lib/setups/gamesetup", "script_path" : "Blank.lua" }
 	]
