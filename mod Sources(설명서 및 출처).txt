@@ -241,8 +241,23 @@
 
 	[출처]
 	https://modworkshop.net/mydownloads.php?action=view_down&did=13511#description
+	
+	
+	
+* Stop crime spree crash on join base
+	크라임스프리 높은 점수인 방(5만점이상)에 들어갈때 렉없이 들어가게 해주는 모드
 
+	[모드 제거방법]
+	Stop crime spree crash on join base 폴더 삭제
 
+	mod.txt 에서
+
+		{ "hook_id": "lib/managers/menu/crimespreedetailsmenucomponent", "script_path": "Stop crime spree crash on join base/lua/esconder.lua" },
+
+	이 코드 지우면 됨.
+
+	[출처]
+	https://modworkshop.net/mydownloads.php?action=view_down&did=21026
 
 
 
