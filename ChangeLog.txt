@@ -24,3 +24,8 @@ Cheater Kicker
 
 1.2 ChangeLog
 force ready modify
+
+
+1.3 ChangeLog
+Stop crime spree crash on join base
+추가
